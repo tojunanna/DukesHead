@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<title>Dukes Head</title>
+<meta charset="UTF-8">
+<meta name="The Dukes Head is a pub and resturantwith an outstanding reputation, we serve your 
+favorite dishes: Starter, Main Course, Burgers, Pies, Pasta, Fajitas, Salads, Vegetarian, Platters and Desserts ">
+
+<meta name="og:title" property="og:title"
+  content="We are a family pub and restaurant, providing the best services in Wisbech, Peterborough.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="owl.carousel.css">
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+<style>
+  body,
+  h1,
+  h5 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%
+  }
+
+  .bgimg {
+    background-image: url('img/vid1.mp4');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .parent-box {
+    background-color: white;
+    display: flex;
+
+  }
+
+  .item {
+
+    height: 200px;
+
+    margin: 10px;
+  }
+
+  .item img {
+
+    height: 200px;
+    background-color: orange;
+
+    background-color: aqua;
+  }
+
+  .icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    line-height: 78px;
+    border: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40% auto;
+    margin: 20px 0 15px;
+    font-style: normal;
+    color: #1b1b1b;
+    text-align: center;
+    overflow: hidden;
+  }
+</style>
+
+<body id="top">
+
+  <div class="bgimg w3-display-container w3-text-white">
+    <div class="w3-display-middle w3-jumbo">
+      <p>logo</p>
+    </div>
+    <div class="w3-display-topleft w3-container w3-xlarge">
+      <p><button onclick="document.getElementById('menu').style.display='block'"
+          class="w3-button w3-blue"><b>Menu</b></button>
+      </p>
+
+      <p class="w3-padding w3-blue w3-text-white w3-animate-zoom"><a href="#aboutus"><b>About Us</b></a></p>
+
+      <p class="w3-padding w3-blue w3-text-white w3-animate-zoom"><a href="#picture"><b>Gallery</b></a></p>
+
+      <p class="w3-padding w3-blue w3-text-white w3-animate-zoom"><a href="#contact"><b>Contact</b></a></p>
+
+    </div>
+
+
+    <a href="#top" style="color: white">
+      <button id="myBtn"><i class="fa fa-arrow-up" style="font-size:20px;color:black"></i></button></a>
+
+
+    <div class="w3-display-bottomleft w3-container">
+      <p class="w3-xlarge"><b><span style="color:white; ">Monday - Sunday 11:00 AM-23:00 PM</span></b> </p>
+      <p class="w3-large"><b><span style="color:whitesmoke; font-weight: 300px;">8 Church terrace, Wisbech, PE13
+            1BJ</span></b></p>
+      <p style="color:whitesmoke; font-weight: 300;">powered by <a href="" target="_blank">Dukes Head</a></p>
+    </div>
+  </div>
+
+  <!-- Menu Modal -->
+  <div id="menu" class="w3-modal">
+
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-blue w3-display-container">
+
+        <a href="#menutop" style="color: white">
+          <button id="myBtn"><i class="fa fa-arrow-up" style="font-size:20px;color:black"></i></button></a>
+
+        <span onclick="document.getElementById('menu').style.display='none'"
+          class="w3-button w3-display-topright w3-large">x</span>
+        <h1 id="menutop">Starters</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Creamy mushrooms and stilton <span class="w3-right"><b>£4.95</b></span><br> cheese or brioche </h5>
+        <h5>Breaded brie <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Calamari <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Chicken wings <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Thai prawns <span class="w3-right"><b>£5.95</b></span></h5>
+        <h5>White baits <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Soup of the Day <span class="w3-right"><b>£4.95</b></span></h5>
+      </div>
+      <div class="w3-container w3-blue">
+        <h1>Main Courses</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Cod and Chips <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>Scampi <span class="w3-right"><b>£10.95</b></span></h5>
+        <h5>Sea bass with creamy risotto <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>8oz sirloin steak and chips <span class="w3-right"><b>£14.95</b></span><br><small>with portobelle mushrooms,
+            beef tomatoes and onion
+            rings</small> </h5>
+        <h5>8oz rump steak <span class="w3-right"><b>£13.95</b></span> <br><small>with portobello mushrooms, beef
+            tomatoes and onion rings</small>
+        </h5>
+        <h5>Sausage and mash <span class="w3-right"><b>£10.95</b></span></h5>
+        <h5>Brewers chicken <span class="w3-right"><b>£11.95</b></span> <br> <small>chicken breast with cheddar and
+            bacon, served with coleslaw, chips
+            and onion rings</small></h5>
+        <h5>Thai prawns <span class="w3-right"><b>£12.95</b></span></h5>
+      </div>
+      <div class="w3-container w3-blue">
+        <h1>Burgers</h1>
+      </div>
+      <div class="w3-container">
+        <h5><small>Burger include lettuce, tomato, cheddar and bacon, and come with chips and onion rings.</small></h5>
+        <h5>Beef <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>Chicken <span class="w3-right"><b>£11.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Pies</h1>
+      </div>
+      <div class="w3-container">
+        <h5><small>Pies come with veg, mash and a pot of gravy.</small></h5>
+        <h5>Steak and ale pie <span class="w3-right"><b>£9.95</b></span></h5>
+        <h5>Chicken and bacon pie <span class="w3-right"><b>£9.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Pasta</h1>
+      </div>
+      <div class="w3-container">
+        <h5><small>Choose between spaghetti and linguini.</small></h5>
+        <h5>Carbonara <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>Bolognese <span class="w3-right"><b>£10.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Fajitas</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Chicken fajitas <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>Halloumi fajitas <span class="w3-right"><b>£11.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Salads</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Caesar salad <span class="w3-right"><b>£11.95</b></span></h5>
+        <h5>Halloumi salad <span class="w3-right"><b>£10.95</b></span></h5>
+        <h5>Avocado and mozzarella salad <span class="w3-right"><b>£10.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Vegetarian</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Veggie burger <span class="w3-right"><b>£10.95</b></span></h5>
+        <h5>Portobello mushroom burger <span class="w3-right"><b>£10.95</b></span></h5>
+        <h5>Creamy mushroom risotto <span class="w3-right"><b>£9.95</b></span></h5>
+        <h5>Grilled vegetable risotto <span class="w3-right"><b>£9.95</b></span></h5>
+
+      </div>
+
+      <div class="w3-container w3-blue">
+        <h1>Sharing platters</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Butcher's board <span class="w3-right"><b>£15.95 </b></span><br><small> 4oz rump, half chicken breast, 2
+            sausages, half gammon and garlic
+            ciabatta</small></h5>
+        <h5>Fisherman's board <span class="w3-right"><b>£15.95 </b></span><br><small> half cod, white baits, calamari,
+            scampi and tartare sauce</small>
+        </h5>
+
+      </div>
+
+
+      <div class="w3-container w3-blue">
+        <h1>Kids Meal</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Chicken goujons <span class="w3-right"><b>£5.95</b></span></h5>
+        <h5>Fish fingers <span class="w3-right"><b>£5.95</b></span></h5>
+        <h5>Kids pasta <span class="w3-right"><b>£5.95</b></span></h5>
+        <h5>Kids burgers <span class="w3-right"><b>£5.95</b></span></h5>
+        <h5>Fisherman's board <span class="w3-right"><b>£15.95</b></span><br><small> half cod, white baits, calamari,
+            scampi and tartare sauce</small>
+        </h5>
+
+      </div>
+
+
+      <div class="w3-container w3-blue">
+        <h1>Desserts</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5>Apple crumble <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Sticky toffee pudding <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Brownie <span class="w3-right"><span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Eton mess <span class="w3-right"><b>£4.95</b></span></h5>
+        <h5>Ice cream <span class="w3-right"><b>£4.95</b></span><br><small> choice of vanilla, strawberry and
+            chocolate</small></h5>
+        <br>
+        <hr>
+      </div>
+
+
+    </div>
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+
+  <div class=" w3-container w3-animate-right  ">
+    <div class="≈ w3-container w3-center ">
+      <h1 class="w3-blue w3-text-black" id="aboutus">About Us</h1>
+      <div class="w3-row">
+        <div class="w3-col s4  w3-center">
+          <div class="icon">
+            <i class='fas fa-drumstick-bite' style='font-size:30px;color:black'></i>
+          </div>
+          <p><b>Meals</b></p>
+
+        </div>
+        <div class="w3-col s4  w3-center">
+          <div class="icon">
+            <i class='fas fa-hamburger' style='font-size:30px;color:black'></i>
+          </div>
+          <p><b>Burger</b></p>
+        </div>
+        <div class="w3-col s4  w3-center">
+          <div class="icon">
+            <i class=' fas fa-ice-cream' style=' font-size:30px;color:black'></i>
+          </div>
+          <p><b>Ice Creams</b></p>
+        </div>
+      </div>
+
+      <p>Welcome to the best pub and restaurant in Wisbech, Peterborough. </p>
+      <p>We strive with an outstanding customer services, where our customers comes first. </p>
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- Card Meal -->
+
+  <div class=" w3-container w3-center w3-padding-16">
+    <h1 class="w3-blue" id="picture"><b>Our Meals</b></h1>
+  </div>
+
+
+  </div>
+
+
+  <div class="parent-box owl-carousel owl-theme">
+
+    <div class="item">
+      <img src="img/img5.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img6.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img7.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img8.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img9.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img10.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img11.JPG">
+    </div>
+    <div class="item">
+      <img src="img/img8.JPG">
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <hr>
+  <!-- Contact Modal -->
+  <div class="w3-container w3-animate-left">
+
+
+    <div class="w3-container w3-blue">
+      <h1 class="w3-center" id="contact">Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required
+            name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
+            name="date" value="2017-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements"
+            required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--JAVASCRIPT-->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+  <script src="jquery.min.js"></script>
+  <script src="owl.carousel.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      rtl: true,
+      margin: 10,
+      nav: true,
+      dots: true,
+      dotsEach: true,
+      center: true,
+      autoplay: true,
+
+      responsive: {
+        0: {
+          items: 2
+        },
+        600: {
+          items: 4
+        },
+        1000: {
+          items: 6
+        }
+      }
+
+
+
+    });</script>
+
+
+</body>
+
+</html>
