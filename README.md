@@ -1,3 +1,3 @@
 # DukesHead
 
-https://tojunanna.github.io/DukesHead/
+https://dukesheadwisbech.co.uk/
